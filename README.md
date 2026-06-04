@@ -1,5 +1,12 @@
 # 🌳 Medical Triage Decision Tree
 
+<div align="center">
+
+🇺🇸 <a href="README.md">English</a> •
+🇧🇷 <a href="README_PTBR.md">Português</a>
+
+</div>
+
 A Machine Learning project that simulates a medical triage system using a Decision Tree Classifier.
 
 The model receives a set of patient symptoms and predicts the urgency level:
