@@ -6,6 +6,13 @@
 ```md
 # 🌳 Árvore de Decisão para Triagem Médica
 
+<div align="center">
+
+🇺🇸 <a href="README.md">English</a> •
+🇧🇷 <a href="README_PTBR.md">Português</a>
+
+</div>
+
 Projeto de Machine Learning que simula um sistema de triagem médica utilizando uma Árvore de Decisão.
 
 O modelo recebe sintomas de um paciente e prevê o nível de urgência:
