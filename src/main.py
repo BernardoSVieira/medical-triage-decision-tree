@@ -13,7 +13,7 @@ print(df.head())
 le_target = LabelEncoder()
 df["Urgencia"] = le_target.fit_transform(df["Urgencia"])
 
-X = df[["Febre", "Tosse", "DorPeito"]]
+X = df[["Febre", "Tosse", "DorPeito", "FaltaAr", "DorCabeca", "Nausea"]]
 y = df["Urgencia"]
 
 # 3. Treinamento do Modelo (Critério ID3: Entropia)
@@ -24,8 +24,8 @@ clf.fit(X, y)
 print("--- Simulador de Decisão ---")
 # Exemplo: Paciente com Febre=Sim, Tosse=Não e DorPeito=Não
 nova_entrada = pd.DataFrame(
-    [[1, 0, 0]],
-    columns=["Febre", "Tosse", "DorPeito"]
+    [[1, 0, 0, 0, 0, 0]],
+    columns=["Febre", "Tosse", "DorPeito", "FaltaAr", "DorCabeca", "Nausea"]
 )
 predicao = clf.predict(nova_entrada)
 resultado = le_target.inverse_transform(predicao)
