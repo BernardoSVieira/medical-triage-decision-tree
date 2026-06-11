@@ -383,22 +383,3 @@ This project was developed as a practical study activity focused on Decision Tre
 The primary reference used for the initial implementation and conceptual understanding was the material provided by **Professor Saulo Popov Zambiasi** through the ARISA Wiki:
 
 - https://wiki.arisa.com.br/index.php?title=%C3%81rvores_de_Decis%C3%A3o_em_Python
-
-Additional resources on Decision Trees, Entropy, Information Gain, and supervised classification were consulted to deepen theoretical understanding.
-
----
-
-# Acknowledgements
-
-Special thanks to **Professor Saulo Popov Zambiasi** for providing the educational material that served as the foundation for this project.
-
-The project was expanded beyond the original example and includes:
-
-- A custom medical triage dataset;
-- Urgency classification (Low, Medium, and High);
-- Train/Test Split implementation;
-- Accuracy evaluation;
-- Confusion Matrix analysis;
-- Decision Tree visualization;
-- Interactive terminal-based symptom input;
-- GitHub-ready project organization and documentation.
