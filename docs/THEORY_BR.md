@@ -384,23 +384,7 @@ Este projeto foi desenvolvido como atividade prática de estudo sobre Árvores d
 
 A principal referência utilizada para a implementação inicial e compreensão dos conceitos foi o material disponibilizado pelo professor **Saulo Popov Zambiasi**, por meio da Wiki ARISA:
 
-- :contentReference[oaicite:0]{index=0}
+- https://wiki.arisa.com.br/index.php/Saulo_Popov_Zambiasi
 
-Também foram consultados materiais complementares sobre Árvores de Decisão, Entropia, Ganho de Informação e classificação supervisionada para aprofundamento teórico. :contentReference[oaicite:1]{index=1}
 
----
 
-# Agradecimentos
-
-Agradeço ao professor **:contentReference[oaicite:2]{index=2}** pela disponibilização do conteúdo didático utilizado como base para o desenvolvimento deste projeto.
-
-O projeto foi expandido a partir do exemplo original, incluindo:
-
-- Dataset próprio para triagem médica;
-- Sistema de classificação de urgência (Baixa, Média e Alta);
-- Divisão entre treino e teste (*Train/Test Split*);
-- Avaliação por Accuracy;
-- Matriz de Confusão;
-- Visualização gráfica da árvore;
-- Interface interativa para entrada de sintomas pelo terminal;
-- Estruturação para publicação no GitHub.
