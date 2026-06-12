@@ -118,3 +118,14 @@ plot_tree(
 print(le_target.classes_)
 
 plt.show()
+
+
+from sklearn.metrics import ConfusionMatrixDisplay
+
+ConfusionMatrixDisplay.from_estimator(
+    clf,
+    X_test,
+    y_test
+)
+
+plt.show()
